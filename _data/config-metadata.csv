@@ -1,15 +1,15 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
-title,Title,,,DCTERMS.title,headline
-creator,Creator,,,DCTERMS.creator,creator
-date,Date Created,,,DCTERMS.date,dateCreated
-description,Description,,,DCTERMS.description,description
-subject,Subjects,true,,DCTERMS.subject,keywords
-location,Location,,,DCTERMS.coverage,contentLocation
-latitude,Latitude,,,,
-longitude,Longitude,,,,
-source,Source,,,,
-identifier,Source Identifier,,,,
-type,Type,,,DCTERMS.type,
-format,Format,,,,encodingFormat
-language,Language,,,DCTERMS.language,
+display_template,Type,TRUE,,DCTERMS:type,audio
+objectid,Episode Identifier,FALSE,,DCTERMS:identifier,identifier
+description,Episode Description,FALSE,,DCTERMS:description,abstract
+date,Broadcast Date,FALSE,,DCTERMS:date,datePublished
+subject,Episode Subject,TRUE,,DCTERMS:subject,about
+ttile,Episode Title,FALSE,,DCTERMS:title,name
+creator,Guest,TRUE,,DCTERMS:contributor,actor
+,,,,,
+format,Audio Recording,,,,audio
+objectid,Digital Instantiation Identifier,FALSE,,DCTERMS:identifier,encodingType
+Digital Instantiation Duration,Digital Instantiation Duration,FALSE,,DCTERMS:extent,timeRequired
+object_location,Digital Instantiation Location,FALSE,,,contentLocation
+language,Digital Instantiation Language,TRUE,,DCTERMS:language,language
 rightsstatement,,,,DCTERMS.rights,license
